@@ -52,27 +52,38 @@ align-items: center;
 
 }
 .pagamentoRapido{
-  float: left;
-margin-top: 15vh;
-margin-left: 10vw;
-background-color: white;
 height: 15vh;
 width: 20vw;
 align-items: center;
-border-radius: 1vw;
-line-height: 5vh;
 text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-right : solid 3px;
+border-color: black;
 }
 
 .oferta {
   height: 15vh;
   width: 20vw;
-  float: left;
-margin-top: 15vh;
 border-radius: 1vw;
-background-color: white;
 justify-content: center;
 align-items: center;
 text-align: center;
+display: flex;
+flex-direction: column;
+}
 
+.ofertas {
+  margin-top: 10vh;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin-left: 10vw;
+border-radius: 1vw;
+}
+body {
+  background-color: rgb(218, 214, 214)
 }
